@@ -88,11 +88,9 @@ ul {
 .item-head:not(:last-child) {
   margin-right: 40px;
 }
-.item-head {
-  position: relative;
-}
 
 .head-link {
+  position: relative;
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -104,11 +102,11 @@ ul {
 }
 
 .head-link:hover,
-.head-link:focus {
+.head-link:focus .head-link:active {
   color: var(--ocean-color);
 }
 
-.head-link::after:active {
+.head-link::after {
   content: '';
   display: block;
   position: absolute;
