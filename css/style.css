@@ -107,7 +107,11 @@ ul {
   color: var(--ocean-color);
 }
 
-.head-link::after {
+.head-link-pseudo {
+  color: var(--ocean-color);
+}
+
+.head-link-pseudo::after {
   content: '';
   display: block;
   position: absolute;
